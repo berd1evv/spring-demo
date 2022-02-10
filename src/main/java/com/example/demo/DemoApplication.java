@@ -13,9 +13,5 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
-	@GetMapping
-	public String index() {
-		return "<h1>Hello Eldiiar</h1>";
-	}
 
 }
